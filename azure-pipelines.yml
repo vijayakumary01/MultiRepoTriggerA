@@ -1,6 +1,15 @@
 trigger:
 - main
 
+resources:
+  repositories:
+  - repository: A
+    type: github
+    name: vijayakumary01/MultiRepoTriggerB
+    ref: main
+    trigger:
+    - main
+
 pool:
   vmImage: ubuntu-latest
 
