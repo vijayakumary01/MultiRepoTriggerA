@@ -5,6 +5,7 @@ resources:
   repositories:
   - repository: A
     type: github
+    endpoint: github.com_vijayakumary01
     name: vijayakumary01/MultiRepoTriggerB
     ref: main
     trigger:
